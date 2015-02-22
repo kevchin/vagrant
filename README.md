@@ -21,7 +21,7 @@ Some gotcha's.
 3. Make sure you have 8Gb of free memory for the VM. You may change the Vagrantfile to specify smaller memory requirements.
 4. This project has NOT been tested with the VMWare provider for Vagrant.
 5. You may change the script (setup.sh) to point to a different location for Hadoop to be downloaded from. Here is a list of mirrors: http://www.apache.org/dyn/closer.cgi/hadoop/common/.
-6. Some R code is dynamically generated with some 'best effort' attempts to 'future-proof the code, but as the toolsets are changing so quickly, you can modify the 'setup.sh' code to accomodate newer versions of Hadoop, R Studio, R, etc.
+6. Some R code is dynamically generated with some 'best effort' attempts to 'future-proof the code, but as the toolsets are changing so quickly, you can modify the 'setup.sh' code to accommodate newer versions of Hadoop, R Studio, R, etc.
 7. Check the CRAN site set in 'installPkg.R' to ensure it makes sense for your geography
 8. I could not cache a copy of Java on the local file system as the dependencies seem to be dynamically evaluated. Therefore I did bother to pre-download a Java environment.
 
