@@ -10,9 +10,10 @@ This Vagrant project creates a VM with single node setup of R, R Studio Server, 
 4. Git clone this project, and change directory (cd) into this project (directory).
 5. Run ```vagrant up``` to create the VM.
 6. Run ```vagrant ssh``` to get into your VM.
-7. Run ```vagrant destroy``` when you want to destroy and get rid of the VM.
-8. Run ```vagrant halt``` when you want to shut down the VM
+7. Run ```vagrant halt``` when you want to shut down the VM
+8. Run ```vagrant destroy``` when you want to destroy and get rid of the VM.
 9. Got to ```http://localhost:8787``` when you want use R Studio Server with Hadoop (username/password: vagrant/vagrant)
+10. Run simpleMR.R in R-Studio to confirm Map Reduce and HDFS is working
 
 Some gotcha's.
 
