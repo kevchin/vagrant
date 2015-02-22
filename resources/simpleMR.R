@@ -16,17 +16,20 @@ library(plyrmr)
 library(rhdfs)
 library(rmr2)
 
+hdfs.init()
+
+# Mapreduce from rmr2
+#
 ints = to.dfs(1:100)
 calc = mapreduce(input = ints,
                  map = function(k, v) cbind(v, 2*v))
 
 from.dfs(calc)
 
-hdfs.init()
 # write the mtcars dataframe to Hadoop File system (serialize)
 model <- mtcars
 myFilename <- "mtcars.out"
-# can do: # hdfs dfs -ls /user/vagrant/mtcars.out
+# can verify hdfs file via shell: # hdfs dfs -ls /user/vagrant/mtcars.out
 modelfile <- hdfs.file(myFilename, "w")
 hdfs.write(model, modelfile)
 hdfs.close(modelfile)
