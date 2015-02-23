@@ -12,10 +12,10 @@ This work adds R, RHadoop, and R-Studio Server to the Hadoop Vagrantfile from Va
 4. Git clone this project, and change directory (cd) into this project (directory).
 5. Run ```vagrant up``` to create the VM.
 6. Run ```vagrant ssh``` to get into your VM.
-7. Run ```vagrant halt``` when you want to shut down the VM
+7. Run ```vagrant halt``` when you want to shut down the VM.
 8. Run ```vagrant destroy``` when you want to destroy and get rid of the VM.
-9. On the Host, go to ```http://localhost:8787``` when you want use R Studio Server with Hadoop (username/password: vagrant/vagrant)
-10. Run simpleMR.R in R-Studio to confirm Map Reduce and HDFS is working
+9. On the Host, go to ```http://localhost:8787``` when you want use R Studio Server with Hadoop (username/password: vagrant/vagrant).
+10. Run simpleMR.R in R-Studio to confirm Map Reduce and HDFS is working.
 
 Some gotcha's.
 
@@ -25,7 +25,7 @@ Some gotcha's.
 4. This project has NOT been tested with the VMWare provider for Vagrant.
 5. You may change the script (setup.sh) to point to a different location for Hadoop to be downloaded from. Here is a list of mirrors: http://www.apache.org/dyn/closer.cgi/hadoop/common/.
 6. Some R code is dynamically generated with some 'best effort' attempts to 'future-proof the code, but as the toolsets are changing so quickly, you can modify the 'setup.sh' code to accommodate newer versions of Hadoop, R Studio, R, etc.
-7. Check the CRAN site set in 'installPkg.R' to ensure it makes sense for your geography
+7. Check the CRAN site set in 'installPkg.R' to ensure it makes sense for your geography.
 8. I could not cache a copy of Java on the local file system as the dependencies seem to be dynamically evaluated. Therefore I did bother to pre-download a Java environment.
 
 # Make the VM setup faster
