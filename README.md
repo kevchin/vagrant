@@ -50,7 +50,7 @@ OS/Versions of files that I've verified. Of course, YMMV.
 
 
 # Web UI
-You can check the following URLs to maccess R Studio and monitor the Hadoop daemons.
+You can check the following URLs to access R Studio Server and monitor the Hadoop daemons.
 
 1. [R Studio Server] (http://localhost:8787)
 2. [NameNode] (http://localhost:50070/dfshealth.html)
