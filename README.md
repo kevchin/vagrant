@@ -59,8 +59,8 @@ You can check the following URLs to maccess R Studio and monitor the Hadoop daem
 
 Note that you point your browser to "localhost" because when the VM is created, it is specified to perform port forwarding from your desktop to the VM.
 
-# Map Reduce in R
-Here is a simple Map Reduce example which can be excuted via R-Studio server on this VM.
+# Map Reduce, HDFS access in R
+Here is a simple Map Reduce example which can be excuted via R-Studio server using this VM.
 ![R using Map Reduce/HDFS](./map_reduce_in_r.png "R using Map Reduce/HDFS")
 
 # Vagrant boxes
