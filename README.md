@@ -36,10 +36,13 @@ You can make the VM setup even faster if you pre-download the Hadoop and R Studi
 
 The setup script will automatically detect if these files (with precisely the same names) exist and use them instead. If you are using slightly different versions, you will have to modify the script accordingly.
 
+# Verifying versions of the toolchain
 OS/Versions of files that I've verified. Of course, YMMV.
 * Ubuntu 14.04
 * Vagrant 1.72
 * VirtualBox 4.3.10
+* hadoop-2.3.0.tar.gz
+* jdk-7u51-linux-x64.gz
 * plyrmr-0.6.0
 * rmr-3.3.1
 * rhdfs-1.0.8
