@@ -19,7 +19,7 @@ This work adds R, RHadoop, and R-Studio Server to the Hadoop Vagrantfile from Va
 
 Some gotcha's.
 
-1. Make sure you download Vagrant v1.4.3 or higher (I'm using Vagrant 1.72 on Ubuntu 14.04).
+1. Make sure you download Vagrant v1.4.3 or higher (See Below for Version Details).
 2. Make sure when you clone this project, you preserve the Unix/OSX end-of-line (EOL) characters. The scripts will fail with Windows EOL characters.
 3. Make sure you have 8Gb of free memory for the VM. You may change the Vagrantfile to specify smaller memory requirements.
 4. This project has NOT been tested with the VMWare provider for Vagrant.
@@ -29,10 +29,10 @@ Some gotcha's.
 8. I could not cache a copy of Java on the local file system as the dependencies seem to be dynamically evaluated. Therefore I did bother to pre-download a Java environment.
 
 # Make the VM setup faster
-You can make the VM setup even faster if you pre-download the Hadoop and R Studio Server into the /resources directory.
+You can make the VM setup even faster if you pre-download the Hadoop and R Studio Server into the /resources directory. These files are relative to the Vagrantfile.
 
-1. /resources/hadoop-2.3.0.tar.gz
-2. /resources/rstudio-server-0.98.1102-x86_64.rpm
+1. ./resources/hadoop-2.3.0.tar.gz
+2. ./resources/rstudio-server-0.98.1102-x86_64.rpm
 
 The setup script will automatically detect if these files (with precisely the same names) exist and use them instead. If you are using slightly different versions, you will have to modify the script accordingly.
 
@@ -63,7 +63,7 @@ You can check the following URLs to access R Studio Server and monitor the Hadoo
 Note that you point your browser to "localhost" because when the VM is created, it is specified to perform port forwarding from your desktop to the VM.
 
 # Map Reduce, HDFS access in R
-Here is a simple Map Reduce example which can be excuted via R-Studio server using this VM.
+Here is a simple Map Reduce, HDFS example R which can be excuted via R-Studio server using this VM.
 ![R using Map Reduce/HDFS](./map_reduce_in_r.png "R using Map Reduce/HDFS")
 
 # Vagrant boxes
