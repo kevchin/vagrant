@@ -14,7 +14,7 @@ This work adds R, RHadoop, and R-Studio Server to the Hadoop Vagrantfile from Va
 6. Run ```vagrant ssh``` to get into your VM.
 7. Run ```vagrant halt``` when you want to shut down the VM
 8. Run ```vagrant destroy``` when you want to destroy and get rid of the VM.
-9. Got to ```http://localhost:8787``` when you want use R Studio Server with Hadoop (username/password: vagrant/vagrant)
+9. On the Host, go to ```http://localhost:8787``` when you want use R Studio Server with Hadoop (username/password: vagrant/vagrant)
 10. Run simpleMR.R in R-Studio to confirm Map Reduce and HDFS is working
 
 Some gotcha's.
