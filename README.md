@@ -36,6 +36,16 @@ You can make the VM setup even faster if you pre-download the Hadoop and R Studi
 
 The setup script will automatically detect if these files (with precisely the same names) exist and use them instead. If you are using slightly different versions, you will have to modify the script accordingly.
 
+OS/Versions of files that I've verified. Of course, YMMV.
+* Ubuntu 14.04
+* Vagrant 1.72
+* VirtualBox 4.3.10
+* plyrmr-0.6.0
+* rmr-3.3.1
+* rhdfs-1.0.8
+* RStudio Server 0.98.1102-x86_64.rpm
+
+
 # Web UI
 You can check the following URLs to maccess R Studio and monitor the Hadoop daemons.
 
@@ -48,6 +58,10 @@ You can check the following URLs to maccess R Studio and monitor the Hadoop daem
 
 
 Note that you point your browser to "localhost" because when the VM is created, it is specified to perform port forwarding from your desktop to the VM.
+
+# Map Reduce in R
+Here is a simple Map Reduce example which can be excuted via R-Studio server on this VM.
+![R using Map Reduce/HDFS](./map_reduce_in_r.png "R using Map Reduce/HDFS")
 
 # Vagrant boxes
 A list of available Vagrant boxes is shown at http://www.vagrantbox.es. 
