@@ -2,7 +2,7 @@
 
 This Vagrant project creates a VM with single node setup of R, R Studio Server, rhdfs, plyrmr, and Hadoop v2.3.0 with YARN installed. This allows R developers to use Map Reduce, access HDFS, and develop R code alongside Hadoop.
 
-Much of this work builds on the Hadoop Vagrantfile from VangJee (see references).
+This work adds R, RHadoop, and R-Studio Server to the Hadoop Vagrantfile from VangJee (see references).
 
 # Getting Started
 
