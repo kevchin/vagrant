@@ -20,6 +20,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 		rbox.vm.network "forwarded_port", guest: 8088, host: 8088
 		rbox.vm.network "forwarded_port", guest: 8042, host: 8042
 		rbox.vm.network "forwarded_port", guest: 19888, host: 19888
-		rbox.vm.network "forwarded_port", guest: 8787, host: 8788
+		rbox.vm.network "forwarded_port", guest: 8787, host: 8787
 	end
 end

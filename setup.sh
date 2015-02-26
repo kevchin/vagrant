@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 export JAVA_HOME=/usr/local/java
 export HADOOP_PREFIX=/usr/local/hadoop
 HADOOP_ARCHIVE=hadoop-2.3.0.tar.gz
