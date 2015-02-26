@@ -85,7 +85,7 @@ This project was kludge together with great pointers from all around the interne
 8. https://github.com/RevolutionAnalytics/plyrmr/blob/master/docs/tutorial.md 
 
 # Copyright Stuff
-Copyright 2015 KevChin
+Copyright 2015 kevchin
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
